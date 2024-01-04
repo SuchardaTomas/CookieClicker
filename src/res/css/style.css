@@ -1,3 +1,7 @@
+body {
+  background-image: url(../img/background.jpg);
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -29,6 +33,15 @@ button {
   height: 50px;
   width: 200px;
   margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+}
+
+#counter {
+  font-weight: bold;
 }
 
 @media (prefers-reduced-motion: no-preference) {
